@@ -9,19 +9,21 @@
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
+      background: linear-gradient(145deg, #e0f7fa, #fff3e0);
       color: #222;
       line-height: 1.6;
     }
     header {
-      background-color: #ffffffcc;
+      background: #004d40;
+      color: #fff;
       padding: 20px;
       text-align: center;
-      border-bottom: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
     }
     nav {
       margin-top: 10px;
@@ -29,59 +31,73 @@
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #444;
+      color: #e0f2f1;
       font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     .hero {
       background: url('your-featured-image.jpg') center/cover no-repeat;
-      height: 70vh;
+      height: 75vh;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #fff;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      text-shadow: 0 2px 6px rgba(0,0,0,0.6);
     }
     .hero h2 {
-      font-size: 3rem;
+      font-size: 3.2rem;
+      background-color: rgba(0, 77, 64, 0.7);
+      padding: 20px;
+      border-radius: 10px;
     }
     .section {
       padding: 60px 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
-      background-color: #ffffffcc;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      margin-bottom: 40px;
+      background: #ffffffee;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 60px;
     }
     .section h3 {
-      font-size: 2rem;
-      margin-bottom: 20px;
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      color: #00695c;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
     }
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
+      gap: 30px;
     }
     .gallery figure {
       margin: 0;
       text-align: center;
     }
-    .gallery img, .gallery iframe, .gallery blockquote {
+    .gallery img {
       width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     }
     .gallery figcaption {
-      margin-top: 10px;
+      margin-top: 12px;
       font-weight: 600;
-      font-size: 0.95rem;
-      color: #555;
+      font-size: 1rem;
+      color: #444;
     }
     footer {
       text-align: center;
-      padding: 20px;
-      background-color: #f7f7f7;
-      border-top: 1px solid #ddd;
+      padding: 25px;
+      background-color: #004d40;
+      color: #fff;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -102,17 +118,17 @@
 
   <section id="about" class="section">
     <h3>About Us</h3>
-    <p>At Volant Dental, we specialize in modern, minimally invasive, and cosmetic dental care. Our mission is to elevate your smile with precision and compassion while keeping things simple, elegant, and stress-free.</p>
+    <p>Volant Dental delivers stunning smile makeovers and long-lasting results using the most gentle, modern techniques in dentistry. Our philosophy centers around aesthetics, minimal invasiveness, and a personalized experience that prioritizes your confidence and comfort.</p>
   </section>
 
   <section id="services" class="section">
     <h3>Our Services</h3>
     <ul>
-      <li>Teeth Whitening</li>
-      <li>Cosmetic Bonding</li>
-      <li>Porcelain Veneers</li>
-      <li>No-Prep & Minimal-Prep Restorations</li>
-      <li>Digital Smile Design</li>
+      <li>Teeth Whitening & Brightening</li>
+      <li>Natural-Looking Cosmetic Bonding</li>
+      <li>Porcelain & No-Prep Veneers</li>
+      <li>Digital Smile Design Consults</li>
+      <li>Minimally Invasive Restorations</li>
     </ul>
   </section>
 
